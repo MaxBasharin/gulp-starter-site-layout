@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MaxBasharin/gulp-starter-site-layout#readme",
   "devDependencies": {
+    "del": "^6.1.1",
     "gulp": "^4.0.2"
   }
 }
