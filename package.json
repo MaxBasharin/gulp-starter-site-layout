@@ -1,0 +1,23 @@
+{
+  "name": "gulp-starter-site-layout",
+  "version": "1.0.0",
+  "description": "gulp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxBasharin/gulp-starter-site-layout.git"
+  },
+  "author": "Max Basharin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxBasharin/gulp-starter-site-layout/issues"
+  },
+  "homepage": "https://github.com/MaxBasharin/gulp-starter-site-layout#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
