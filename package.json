@@ -19,6 +19,9 @@
   "homepage": "https://github.com/MaxBasharin/gulp-starter-site-layout#readme",
   "devDependencies": {
     "del": "^6.1.1",
-    "gulp": "^4.0.2"
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-version-number": "^0.2.4",
+    "gulp-webp-html-nosvg": "^1.1.1"
   }
 }
