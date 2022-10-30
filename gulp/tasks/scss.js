@@ -3,7 +3,7 @@ import gulpSass from 'gulp-sass';
 import rename from 'gulp-rename';
 
 import cleanCss from 'gulp-clean-css'; // сжатие css файлов
-import webpcss from 'gulp-webpcss'; // вывод webp изображений
+//import webpcss from 'gulp-webpcss'; // вывод webp изображений
 import autoprefixer from 'gulp-autoprefixer'; // добавление вендорных префиксов
 import groupCssMediaQueries from 'gulp-group-css-media-queries';// группировка медиа запросов
 
@@ -22,12 +22,12 @@ export const scss = () => {
             outputStyle: 'expanded' 
         }))
         .pipe(groupCssMediaQueries())
-        .pipe(webpcss(
+        /*.pipe(webpcss(
             {
                 webpClass: ".webp", // если поддерживает то выводит картинку .webp
                 noWebpClass: ".no-webp"
             }
-        ))
+        ))*/
         .pipe(autoprefixer({
             grid: true,
             overrideBrowserslist: ["last 3 versions"],
