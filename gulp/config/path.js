@@ -6,14 +6,17 @@ const srcFolder = `./src`; // содержит путь с папкой исхо
 
 export const path = {
 	build: {
+		css: `${buildFolder}/css/`,
 		html: `${buildFolder}/`,
 		files: `${buildFolder}/files/`,
 	},
 	src: {
+		scss: `${srcFolder}/scss/style.scss`,
 		html: `${srcFolder}/*.html`,
 		files: `${srcFolder}/files/**/*.*`, // проверяет файлы в любых вложенных папках папки files (все файлы и папки)
 	},
 	watch: {
+		scss: `${srcFolder}/scss/**/*.scss`,
 		html: `${srcFolder}/**/*.html`,
 		files: `${srcFolder}/files/**/*.*`, 
 	},

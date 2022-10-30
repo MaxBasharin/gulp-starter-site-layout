@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(255, 255, 255);
+    span {
+        color: rgb(85, 85, 85);
+    }
+    background: url("@img/cool-cat.jpg")0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+    span {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+}
